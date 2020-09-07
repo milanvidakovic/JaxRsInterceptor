@@ -64,7 +64,6 @@ final class ZipFileIterator {
         return current;
     }
 
-    @SuppressWarnings("emptyblock")
     public InputStream next() throws IOException {
         while (entries.hasMoreElements()) {
             current = entries.nextElement();
